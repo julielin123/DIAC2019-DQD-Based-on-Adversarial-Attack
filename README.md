@@ -96,6 +96,12 @@ pip install torch==1.3.1+cu92 torchvision==0.4.2+cu92 -f https://download.pytorc
 'src/pytorch_transformers/modeling_bert.py' 在bert中使用fgm，增加扰动  
 'src/run_bert_base_fgm.py' 模型训练  
 
+## 提升点
+-(+*) 增加折数
+-(+*）融合模型
+-(+*）利用同义词挖掘算法得到法律领域的同义词集
+
+
 ## 参考
 错别字生成参考[SimilarCharacter](https://github.com/contr4l/SimilarCharacter)
 
