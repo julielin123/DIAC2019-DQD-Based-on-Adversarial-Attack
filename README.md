@@ -1,6 +1,9 @@
 # Duplicate-Question-Detection-Based-on-Adversarial-Attack
 A solution for competition [基于Adversarial Attack的问题等价性判别比赛](https://www.biendata.com/competition/2019diac/)
 
+## 得分
+2折：0.79442
+
 ## 开发环境
 
 ### python3.7 
