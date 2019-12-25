@@ -101,6 +101,8 @@ pip install torch==1.3.1+cu92 torchvision==0.4.2+cu92 -f https://download.pytorc
 
 生成原始句子对参考[训练集构造](https://www.biendata.com/forum/view_post_category/718/)
 
+思路参考 https://github.com/WenRichard/DIAC2019-Adversarial-Attack-Share
+
 
 
 
