@@ -97,9 +97,9 @@ pip install torch==1.3.1+cu92 torchvision==0.4.2+cu92 -f https://download.pytorc
 'src/run_bert_base_fgm.py' 模型训练  
 
 ## 提升点
--(+*) 增加折数
--(+*）融合模型
--(+*）利用同义词挖掘算法得到法律领域的同义词集
+* 增加折数
+* 融合模型
+* 利用同义词挖掘算法得到法律领域的同义词集
 
 
 ## 参考
