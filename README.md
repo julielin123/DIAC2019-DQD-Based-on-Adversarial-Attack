@@ -15,7 +15,7 @@ pip install pyltp
 模型：ltp_data_v3.4.0 
 
 ## 项目结构简介
-.
+.  
 ├─ 1120_roberta_wwm_large_150_last2embedding_cls  
 ├─ README.md  
 ├─ dataset  
@@ -25,7 +25,7 @@ pip install pyltp
 │    │    ├─ train_augment.csv  
 │    │    ├─ train_final.csv  
 │    │    └─ train_origin.csv  
-│    ├─ data_origin
+│    ├─ data_origin  
 │    │    ├─ baifendian_data.zip  
 │    │    ├─ dev_set.csv  
 │    │    ├─ sample_submission.csv  
