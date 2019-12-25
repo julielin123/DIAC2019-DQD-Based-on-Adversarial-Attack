@@ -50,10 +50,19 @@ pip install pyltp
 
 'dataset/Kfold_dataset.py'生成交叉验证数据集
 
+### 模型
+
+‘src/FGM.py’ FGM模型class
+
+‘src/pytorch_transformers/modeling_bert.py’ 在bert中使用fgm，增加扰动
+
+'src/run_bert_base_fgm.py' 模型训练
+
 ### 运行
+
 'model/model.sh'
 
-### 结果使用
+### 生成提交文件
 'model/generate_submission.py'
 
 ## 参考
@@ -62,4 +71,4 @@ pip install pyltp
 生成原始句子对参考[训练集构造](https://www.biendata.com/forum/view_post_category/718/)
 
 
- 
+
