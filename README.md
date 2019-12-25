@@ -1,5 +1,5 @@
 # Duplicate-Question-Detection-Based-on-Adversarial-Attack
-A solution for competition "基于Adversarial Attack的问题等价性判别"
+A solution for competition [基于Adversarial Attack的问题等价性判别比赛](https://www.biendata.com/competition/2019diac/)
 
 ## 开发环境
 
