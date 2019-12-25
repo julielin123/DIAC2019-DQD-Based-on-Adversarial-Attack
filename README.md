@@ -16,42 +16,31 @@ pip install pyltp
 
 ## 项目结构简介
 .
-├─ 1120_roberta_wwm_large_150_last2embedding_cls
-│    ├─ 1120_roberta_wwm_large_150_last2embedding_cls_0
-│    │    ├─ eval_results.txt
-│    │    ├─ pytorch_model.bin
-│    │    ├─ sub.csv
-│    │    └─ sub_dev.csv
-│    ├─ 1120_roberta_wwm_large_150_last2embedding_cls_3
-│    │    ├─ eval_results.txt
-│    │    ├─ pytorch_model.bin
-│    │    ├─ sub.csv
-│    │    └─ sub_dev.csv
-│    └─ 1120_roberta_wwm_large_150_last2embedding_cls_sub_01234.csv
-├─ README.md
-├─ dataset
-│    ├─ Kfold_dataset.py
-│    ├─ data_gitignore
-│    │    ├─ data_StratifiedKFold_42
-│    │    ├─ train_augment.csv
-│    │    ├─ train_final.csv
-│    │    └─ train_origin.csv
+├─ 1120_roberta_wwm_large_150_last2embedding_cls  
+├─ README.md  
+├─ dataset  
+│    ├─ Kfold_dataset.py  
+│    ├─ data_gitignore  
+│    │    ├─ data_StratifiedKFold_42  
+│    │    ├─ train_augment.csv  
+│    │    ├─ train_final.csv  
+│    │    └─ train_origin.csv  
 │    ├─ data_origin
-│    │    ├─ baifendian_data.zip
-│    │    ├─ dev_set.csv
-│    │    ├─ sample_submission.csv
-│    │    ├─ test_set.csv
-│    │    └─ train_set.xml
-│    ├─ pyltp-master
-│    │    ├─ ..
-│    │    ├─ ltp_data_v3.4.0
-│    │    │    ├─newShape(形近字表)
-│    │    └─ src
-│    ├─ train_augment_data.py
-│    └─ train_origin_data.py
-└─ model
-       ├─ generate_submission.py
-       └─ model.sh
+│    │    ├─ baifendian_data.zip  
+│    │    ├─ dev_set.csv  
+│    │    ├─ sample_submission.csv  
+│    │    ├─ test_set.csv  
+│    │    └─ train_set.xml  
+│    ├─ pyltp-master  
+│    │    ├─ ..  
+│    │    ├─ ltp_data_v3.4.0  
+│    │    │    ├─newShape(形近字表)  
+│    │    └─ src  
+│    ├─ train_augment_data.py  
+│    └─ train_origin_data.py  
+└─ model  
+       ├─ generate_submission.py  
+       └─ model.sh  
 
 ### 数据使用
 
