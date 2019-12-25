@@ -8,15 +8,18 @@
        数据处理：和评论区的想法一样，采用下列规则得到训练数据
        A: qi is from <EquivalentSentence>, qj is from <EquivalentSentence>, label 1
        B: qi is from <EquivalentSentence>, qj is from <NotEquivalentSentence> label 0
-       数据增强：每一个句子，随机替换同义词和形近字得到两个生成句，用上面的规则，得到增强的数据。下面是一个例子
+       
+       数据增强：每一个句子，随机替换同义词和形近字得到两个生成句，用上面的规则，得到增强的数据。
+       下面是一个例子:
        原句：民事诉讼什么情况下不能立案
        替换同义词：官事诉讼什么情况下不能立案
        替换形近字：民事诉沦什么情况下不能立案
+       
        训练模型：bert+fgm (roberta)
 
 ## B榜成绩
 训练折数：2（因为没有时间，只训练了2折）  
-最后提交成绩：0.79442  
+
 成绩：5	yansixiliang      0.79442	     1  
 
 ## 开发环境
@@ -95,6 +98,7 @@ pip install torch==1.3.1+cu92 torchvision==0.4.2+cu92 -f https://download.pytorc
 
 ## 参考
 错别字生成参考[SimilarCharacter](https://github.com/contr4l/SimilarCharacter)
+
 生成原始句子对参考[训练集构造](https://www.biendata.com/forum/view_post_category/718/)
 
 
