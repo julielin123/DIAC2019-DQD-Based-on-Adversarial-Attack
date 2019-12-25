@@ -1,5 +1,5 @@
 # DQD-Based-on-Adversarial-Attack
-A solution for competition [基于Adversarial Attack的问题等价性判别比赛](https://www.biendata.com/competition/2019diac/)
+5st place solution for competition [基于Adversarial Attack的问题等价性判别比赛](https://www.biendata.com/competition/2019diac/)
 
 ## B榜得分
 训练2折：0.79442
@@ -62,11 +62,16 @@ pip install pyltp
 'src/run_bert_base_fgm.py' 模型训练
 
 ### 运行
-
-'model/model.sh'
-
-### 生成提交文件
-'model/generate_submission.py'
+      ####数据处理
+       在dataset下
+       创建data_gitignore,用于放置训练数据
+       用train_origin_data.py生成train_origin.csv,存于data_gitignore
+       用train_augment_data.py生成train_augment.csv,存于data_gitignore
+       将train_origin.csv，train_augment.csv相连得到train_final.csv
+       用Kfold_dataset.py划分数据，得到5份划分数据，存在data_gitignore\data_StratifiedKFold_42下
+      ####模型训练
+       运行'model/model.sh'，训练模型
+       运行'model/generate_submission.py'生成提交文件
 
 ## 参考
 错别字生成参考[SimilarCharacter](https://github.com/contr4l/SimilarCharacter)
