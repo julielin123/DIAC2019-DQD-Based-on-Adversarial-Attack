@@ -1,8 +1,11 @@
 # DQD-Based-on-Adversarial-Attack
 5st place solution for competition [基于Adversarial Attack的问题等价性判别比赛](https://www.biendata.com/competition/2019diac/)
 
-## B榜得分
-训练2折：0.79442
+## B榜成绩
+训练折数：2（因为没有时间，只训练了2折）  
+最后提交成绩：0.79442  
+排名：  
+       5	yansixiliang      0.79442	     1
 
 ## 开发环境
 
@@ -14,7 +17,9 @@ pip install torch==1.3.1+cu92 torchvision==0.4.2+cu92 -f https://download.pytorc
 ### pyltp
 安装pyltp  
 >pip install pyltp  
-模型：ltp_data_v3.4.0 
+
+下载模型：[ltp_data_v3.4.0 ](https://pan.baidu.com/share/link?shareid=1988562907&uk=2738088569#list/path=%2F&parentPath=%2F)
+
 
 ### 运行
 #### 数据处理
