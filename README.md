@@ -62,14 +62,17 @@ pip install pyltp
 'src/run_bert_base_fgm.py' 模型训练
 
 ### 运行
-      ####数据处理
+####数据处理
+       
        在dataset下
        创建data_gitignore,用于放置训练数据
        用train_origin_data.py生成train_origin.csv,存于data_gitignore
        用train_augment_data.py生成train_augment.csv,存于data_gitignore
        将train_origin.csv，train_augment.csv相连得到train_final.csv
        用Kfold_dataset.py划分数据，得到5份划分数据，存在data_gitignore\data_StratifiedKFold_42下
-      ####模型训练
+       
+####模型训练
+       
        运行'model/model.sh'，训练模型
        运行'model/generate_submission.py'生成提交文件
 
